@@ -1,0 +1,10 @@
+title UC10 (Browse History)
+
+downButton->MainWindow:downButtonClicked()
+selectButton->MainWindow:navigateSubMenu()
+MainWindow->mainMenu:getName()
+MainWindow->mainMenu:getMenuItems()
+MainWindow->MainWindow:updateMenu()
+selectButton->MainWindow:navigateSubMenu()
+MainWindow->mainMenu:getName()
+MainWindow->MainWindow:updateMenu()

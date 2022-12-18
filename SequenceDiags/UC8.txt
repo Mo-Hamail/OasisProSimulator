@@ -1,0 +1,8 @@
+title UC8 (Startup Session)
+
+MainWindow->device:getBatteryCharge()
+device->battery:getCharge()
+MainWindow->device:getIntensity()
+device->intensity:getIntensity()
+device->connection:testConnection()
+MainWindow->device:runSession()

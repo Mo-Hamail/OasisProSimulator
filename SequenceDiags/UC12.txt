@@ -1,0 +1,4 @@
+title UC12 (Test Connection)
+
+device->device:runConnectionTest()
+device->connection:testConnection()

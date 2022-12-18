@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>backButton.svg</file>
+        <file>downButton.svg</file>
+        <file>powerButton.svg</file>
+        <file>upButton.svg</file>
+        <file>okButton.svg</file>
+        <file>redSquare.png</file>
+    </qresource>
+</RCC>

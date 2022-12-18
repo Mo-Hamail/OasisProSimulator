@@ -1,0 +1,4 @@
+title UC14 (Check Battery Charge)
+
+MainWindow->device:getBatteryCharge()
+device->battery:getCharge()

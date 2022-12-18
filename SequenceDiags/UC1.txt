@@ -1,0 +1,14 @@
+title UC1
+
+powerButton->CESmc:powerToggle()
+activate CESmc
+CESmc->LED:on();
+CESmc->upButton:setEnabled()
+CESmc->downButton:setEnabled()
+CESmc->selectButton:setEnabled()
+CESmc->backButton:setEnabled()
+Connection->CESmc:toggleConnection()
+activate database
+CESmc->database:getRecords()
+deactivate database
+deactivate CESmc

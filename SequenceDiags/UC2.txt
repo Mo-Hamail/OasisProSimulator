@@ -1,0 +1,9 @@
+title UC2
+
+powerButton->powerButton:pressed()
+powerButton->LED:setVisible()
+powerButton->CESmc:powerToggle()
+CESmc->mainMenu:setVisible()
+CESmc->battery:getCharge()
+battery->CESmc:setCharge()
+CESmc->batterySlider:setVisible()

@@ -1,0 +1,10 @@
+title UC3 (Standard Usage)
+
+powerButton->CESmc:powerToggle()
+connection->CESmc:connectionToggle()
+CESmc->mainMenu:selectSubmenu()
+CESmc->mainMenu:selectSubmenu()
+CESmc->timer:initializeTimer()
+CESmc->CESmc:runSession()
+CESmc->battery:batteryDrain()
+CESmc->database:addRecord()

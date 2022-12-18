@@ -1,0 +1,14 @@
+title UC9 (Run Session)
+
+MainWindow->device:runSession()
+device->device:runConnectionTest()
+device->device:beginTherapy()
+device->therapy:getTime()
+device->MainWindow:beginTherapyUI()
+device->MainWindow:initializeTimer
+MainWindow->MainWindow:updateTimer()
+MainWindow->device:updateTimer()
+device->MainWindow:drainBattery()
+MainWindow->device:drainBattery()
+device->battery:setCharge()
+MainWindow->MainWindow:changeBatteryLevel()
